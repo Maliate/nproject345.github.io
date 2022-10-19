@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="1style.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <section class="he">
+            <nav>
+            <a href=""><img src="1logo.png"></a>
+            <div class="navbar" id="navbar">
+                <i class="fa fa-times" onclick="hide()"></i>
+                <ul>
+                    <li class="l1"><a href="">HOME</a></li>
+                    <li class="l2"><a href="">EXAMINATION</a></li>
+                    <li class="l3"><a href="">NOTIFICATION</a></li>
+                    <li class="l4"><a href="">ABOUT US</a></li>
+            </div>
+            <i class="fa fa-bars"  onclick="show()" ></i>
+            </nav>
+            <div class="text">
+                <h1>Best Higher Secondary School</h1>
+                <p>One of the finest Higher Seconday School in Sundargarh</p>
+                <a href="" class="button">Know more</a>
+            </div>
+        </section>
+        <section class="course">
+            <h2>Photos</h2>
+            <div class="s1">
+                <div class="r1">
+                    <h1></h1>
+                    <img class="img1" src="https://lh3.googleusercontent.com/p/AF1QipPkdqxqOVTb3OwCku6-lqNu_VN7yS8-VGNRK19S=s1600-w400" alt="" height="300px">
+                    <p>-<i><b>Front View
+                    </b></i></p> 
+                </div>
+                <div class="r1">
+                    <h1></h1>
+                    <p>-<i><b> "</b></i></p> 
+                </div>
+            </div>
+        </section>
+       <p4>ContactNo.               Email:              Address:</p4> 
+        <script>
+            var navbar= document.getElementById("navbar");
+            function show(){
+                 navbar.style.right="0";
+            }
+            function hide(){
+                 navbar.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
